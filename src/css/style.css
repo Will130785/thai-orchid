@@ -104,6 +104,12 @@ nav {
     transform: translateX(100%);
   }
 
+  @media only screen and (max-width: 900px) {
+    .nav-links {
+      top: 8rem;
+    }
+  }
+
   .nav-links li {
     opacity: 0;
   }
@@ -151,11 +157,9 @@ nav {
 }
 
 .glide__slide--1 {
-  background-image: url("../img/[edit]FInal-logo-Thai\ Orchid\ Takeaway\ Design1-new-color.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("../img/header/nick-karvounis-YmyFBvW7oG8-unsplash.jpg");
+  background-size: cover;
   background-position: center;
-  background-color: #071f28;
 }
 
 .glide__slide--2 {
@@ -187,11 +191,13 @@ nav {
 .discover {
   padding: 10rem;
   text-align: center;
+  background-color: #071f28;
 }
 
 .discover h2 {
   font-size: 3rem;
   padding: 4rem 0;
+  color: #dbb600;
 }
 
 .discover__content {
@@ -202,6 +208,7 @@ nav {
 @media only screen and (max-width: 900px) {
   .discover__content {
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -241,4 +248,67 @@ nav {
 .about p {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+
+/* MENU PAGE */
+.main-menu {
+  background-color: #071f28;
+  color: #dbb600;
+  padding: 5rem;
+}
+
+.main-menu h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.main-menu p {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #dbb600;
+  padding-bottom: 1rem;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 5rem;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+.menu-items p {
+  border: none;
+}
+
+.menu-text {
+  margin-left: 5rem;
+}
+
+.menu-item .menu-desc {
+  font-size: 1.4rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  
+}
+
+.menu-pic {
+  height: 15rem;
+  width: 15rem;
+}
+
+.order-btn {
+  cursor: pointer;
+  margin-top: 2rem;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.4rem;
 }
