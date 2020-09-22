@@ -217,6 +217,16 @@ nav {
   width: 30rem;
 }
 
+
+.discover-pic {
+  width: 30rem;
+  height: 30rem;
+}
+
+.glide__slides--disc {
+  height: 40rem;
+}
+
 /* ABOUT SECTION */
 .about {
   text-align: center;

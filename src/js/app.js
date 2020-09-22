@@ -27,3 +27,11 @@ new Glide('.options-autoplay-1', {
     hoverpause: false,
     perView: 1
   }).mount();
+
+  
+  new Glide('.options-autoplay-2', {
+    type: "carousel",
+    autoplay: 5000,
+    hoverpause: false,
+    perView: 3
+  }).mount();
