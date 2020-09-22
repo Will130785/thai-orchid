@@ -33,5 +33,13 @@ new Glide('.options-autoplay-1', {
     type: "carousel",
     autoplay: 5000,
     hoverpause: false,
-    perView: 3
+    perView: 3,
+    breakpoints: {
+        1000: {
+            perView: 2
+        },
+        700: {
+            perView: 1
+        }
+    }
   }).mount();
