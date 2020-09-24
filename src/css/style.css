@@ -157,7 +157,7 @@ nav {
 }
 
 .glide__slide--1 {
-  background-image: url("../img/header/nick-karvounis-YmyFBvW7oG8-unsplash.jpg");
+  background-image: url("../img/header/chuttersnap-2TSv-Z3GUtI-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -175,7 +175,7 @@ nav {
 }
 
 .glide__slide--4 {
-  background-image: url("../img/header/phillip-larking-9bvZPvQTKIA-unsplash.jpg");
+  background-image: url("../img/header/louis-hansel-shotsoflouis-ZPWR_TWZ4HA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -202,8 +202,14 @@ nav {
 
 .discover h2 {
   font-size: 3rem;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
   color: #dbb600;
+}
+
+.discover p {
+  font-size: 2rem;
+  color: #dbb600;
+  margin-bottom: 4rem;
 }
 
 .discover__content {
@@ -221,6 +227,14 @@ nav {
 .discover__img {
   height: 30rem;
   width: 30rem;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 900px) {
+  .discover__img {
+    margin-bottom: 5rem;
+  }
 }
 
 
@@ -244,9 +258,9 @@ nav {
 }
 
 .about__image {
-  height: 60rem;;
+  height: 60rem;
   width: 100%;
-  background-image: url("../img/about/daniel-nijland-b2XXbQbiox8-unsplash.jpg");
+  background-image: url("../img/about/francisco-suarez-0EkWTSFXwCc-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -264,6 +278,41 @@ nav {
 .about p {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+
+/* PACKAGING SECTION */
+.packaging {
+  background-color: #071f28;
+  color: #dbb600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.packaging h2 {
+  font-size: 3rem;
+  padding: 4rem 0;
+}
+
+.packaging h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.packaging p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.packaging li {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.packaging__content {
+  padding: 4rem 0;
+  width: 70%;
 }
 
 /* MENU PAGE */
