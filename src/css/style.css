@@ -186,6 +186,32 @@ nav {
   background-position: center;
 }
 
+.header__welcome {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+.header__container {
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 1rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.header__welcome h1 {
+  font-size: 5rem;
+  color: #dbb600;
+}
+
+.header__welcome p {
+  font-size: 2rem;
+  color: #dbb600;
+  margin-top: 2rem;
+}
+
 /* DISCOVER SECTION */
 
 .discover {
@@ -243,8 +269,14 @@ nav {
   height: 30rem;
 }
 
-.glide__slides--disc {
-  height: 40rem;
+.discover__caption {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.discover__caption p {
+  width: 75%;
 }
 
 /* ABOUT SECTION */
