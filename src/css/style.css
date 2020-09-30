@@ -347,6 +347,49 @@ nav {
   width: 70%;
 }
 
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #071f28;
+  padding: 10rem 4rem 4rem 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.footer-contact p {
+  color: #dbb600;
+  font-size: 1.4rem;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-contact p {
+    text-align: center;
+  }
+}
+
+.social {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.social-icon {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.footer-logo__pic {
+  height: 10rem;
+  width: 50rem;
+}
+
 /* MENU PAGE */
 .main-menu {
   background-color: #071f28;
@@ -359,7 +402,13 @@ nav {
   margin-bottom: 2rem;
 }
 
-.main-menu p {
+.main-menu h2 {
+  font-size: 3rem;
+  margin: 4rem 0;
+  padding-top: 10rem;
+}
+
+.main-menu {
   font-size: 1.8rem;
   border-bottom: 1px solid #dbb600;
   padding-bottom: 1rem;
@@ -372,7 +421,7 @@ nav {
   margin-top: 5rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .menu-items {
     grid-template-columns: 1fr;
   }
@@ -409,4 +458,10 @@ nav {
   padding: .5rem 1rem;
   font-size: 1.4rem;
   background-color: #dbb600;
+}
+
+.menu-disc {
+  margin-top: 10rem;
+  text-align: center;
+  color: #ff0000;
 }
