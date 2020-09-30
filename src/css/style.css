@@ -390,6 +390,13 @@ nav {
   width: 50rem;
 }
 
+@media only screen and (max-width: 700px) {
+  .footer-logo__pic {
+    height: 5rem;
+    width: 25rem;
+  }
+}
+
 /* MENU PAGE */
 .main-menu {
   background-color: #071f28;
